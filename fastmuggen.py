@@ -10,6 +10,7 @@ while line:
     mug = line.split(".")
     #write labels and incbins now that we know the name
     print(mug[0] + "append")
+    installer.write("ALIGN 4\n")
     installer.write(mug[0] + "Mug:\n")
     installer.write("#incbin \"" + mug[0] + "_mug.dmp\"\n")
     installer.write("#incbin \"" + mug[0] + "_frames.dmp\"\n")
