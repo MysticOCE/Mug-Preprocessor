@@ -12,4 +12,6 @@ for /f "tokens=*" %%m in (png.txt) do echo %%m
 
 echo Done!
 
+fastmuggen.py
+
 pause
